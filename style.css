@@ -198,7 +198,9 @@ h2 {
 }
 
 .look-card img {
-  width: 100%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover; /* semua gambar kotak sama */
   border-radius: 12px;
   border: 2px solid #e9d9b3;
   transition: all 0.3s ease;
